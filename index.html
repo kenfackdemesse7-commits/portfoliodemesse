@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demesse Portfolio</title>
+<style>
+      body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(images/pexels-vladbagacian-1604024.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+    .navbar{
+       justify-content: center;
+        gap: 40px;
+display: flex;
+background-color: aquamarine;
+padding: 15px;
+background: rgba(0, 255, 200, 0.7);
+    backdrop-filter: blur(5px);
+    }
+    .navbar a{
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        
+        }
+        .navbar a:hover{
+    color: yellow;
+    transition: 0.3s;
+}
+.hero{
+    text-align:center;
+    color:white;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+.btn{
+    background:aqua;
+    color:black;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.services{
+    background:white;
+    padding:50px;
+    text-align:center;
+}
+
+.services h2{
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+    .logo {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+} 
+    
+</style>
+ <link rel="icon" href="images/Capture d’écran (3).png" type="image/png">
+</head>
+<body>
+    
+    <div class="navbar">
+        
+<div class="logo">
+    <span class="logo-icon">💻</span>
+    <span class="logo-text"></span>
+  </div>
+   <a href="index.html">HOME</a>
+   <a href="about.html">ABOUT ME</a>
+   <a href="offers.html">SERVICES</a>
+   <a href="contact.html">CONTACTS</a> 
+
+   </div>
+   <section class="hero">
+    <marquee behavior="" direction="">
+    <h1>Welcome to My Portfolio</h1>
+<p>Web Developer | Flyer Designer | Computer Maintenance</p>
+   </marquee>
+   <a href="offers.html" class="btn">View Services</a>
+  <a href="contact.html" class="btn">Contact Me</a>
+   </section>
+
+<section class="services">
+    <h2>Mes Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Création de Sites Web</h3>
+            <p>Sites modernes en HTML et CSS.</p>
+        </div>
+
+        <div class="card">
+            <h3>Flyers & Affiches</h3>
+            <p>Conception professionnelle avec Publisher.</p>
+        </div>
+
+        <div class="card">
+            <h3>Maintenance PC</h3>
+            <p>Installation et optimisation d'ordinateurs.</p>
+        </div>
+
+        <div class="card">
+            <h3>Bureautique</h3>
+            <p>Word, Excel et traitement de documents.</p>
+        </div>
+
+    </div>
+</section>
+<div class="footer">
+    © 2026 Demesse Portfolio
+</div>
+   
+</body>
+</html>
